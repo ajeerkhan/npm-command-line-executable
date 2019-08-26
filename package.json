@@ -1,0 +1,31 @@
+{
+  "name": "npm-command-line-executable",
+  "version": "1.0.0",
+  "description": "demo project to create npm commandline executable package.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node script.js",
+    "linked": "npm-list-linked"
+  },
+  "bin": {
+    "sayhello": "./script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajeerkhan/npm-command-line-executable.git"
+  },
+  "keywords": [
+    "commandline",
+    "executable"
+  ],
+  "author": "ajeerkhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajeerkhan/npm-command-line-executable/issues"
+  },
+  "homepage": "https://github.com/ajeerkhan/npm-command-line-executable#readme",
+  "devDependencies": {
+    "npm-list-linked": "^0.1.0"
+  }
+}
